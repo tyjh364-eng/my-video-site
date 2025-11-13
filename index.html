@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
   <head>
     <meta charset="UTF-8">
-    <title>我的影片</title>
+    <title>114學年度桃源國中教學成果</title>
     <style>
       body {
         margin: 0;
@@ -12,18 +12,19 @@
         align-items: center;
         height: 100vh;
       }
-      video {
+      iframe {
         width: 100%;
-        height: auto;
-        max-width: 100%;
+        height: 100vh;
+        border: none;
       }
     </style>
   </head>
   <body>
-    <video controls autoplay muted>
-      <source src="https://drive.google.com/uc?export=download&id=1wQoQdcWWp3Y6RqzcnVbZROVsYutj65GSZ" type="video/mp4">
-      您的瀏覽器不支援影片播放。
-    </video>
+    <iframe 
+      src="https://www.youtube.com/embed/eOnUHTx_gkA?autoplay=1&mute=1&controls=1"
+      title="YouTube video player"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
   </body>
 </html>
-
